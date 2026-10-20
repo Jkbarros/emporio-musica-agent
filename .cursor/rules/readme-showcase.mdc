@@ -1,0 +1,17 @@
+---
+description: Ao finalizar projeto, enriquecer README com demo.gif, Mermaid e guia de execução
+alwaysApply: false
+globs: README.md
+---
+
+# README showcase (projeto completo)
+
+Quando o usuário indicar que o projeto está **completo**, **pronto para entrega**, **portfólio** ou pedir README “como o Traffic Light”:
+
+1. **GIF no topo** — `docs/demo.gif` referenciado com `![alt](docs/demo.gif)`.
+2. **Gerar o GIF** — rodar `python scripts/generate_readme_demo.py` (Pillow). Se o projeto tiver outra UI, adaptar o script ou gravar frames representativos; manter arquivo em `docs/`.
+3. **Diagrama Mermaid** — arquitetura ou fluxo principal no README (GitHub renderiza nativamente).
+4. **Tabela de recursos** + seção **Como executar** com comandos copiáveis.
+5. **Não** commitar segredos; GIF deve ser leve (< ~2 MB se possível).
+
+Skill pessoal do usuário: `readme-showcase` (mesmo checklist em todos os repositórios).

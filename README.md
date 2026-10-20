@@ -6,7 +6,11 @@ O agente responde com base em **dados reais do desafio** (CSVs + PDF de polític
 
 **Repositório:** https://github.com/Jkbarros/emporio-musica-agent
 
+![Demonstração da Lúcia: catálogo, políticas e pedidos com ferramentas](docs/demo.gif)
+
 **Guia rápido para quem vai avaliar (localhost):** [docs/instrucoes_avaliador_localhost.md](docs/instrucoes_avaliador_localhost.md)
+
+Para **regenerar o GIF** do README após mudanças na interface: `pip install pillow` e `python scripts/generate_readme_demo.py`.
 
 ---
 
