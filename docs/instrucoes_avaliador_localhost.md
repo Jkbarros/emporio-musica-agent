@@ -2,7 +2,7 @@
 
 Guia para clonar o repositório, configurar o ambiente e abrir a **interface web (Streamlit)** no navegador. A atendente virtual se chama **Lúcia** (Empório da Música).
 
-**Repositório:** https://github.com/Jkbarros/projeto-artefact
+**Repositório:** https://github.com/Jkbarros/emporio-musica-agent
 
 ---
 
@@ -26,8 +26,8 @@ Abra o PowerShell na pasta onde deseja clonar o projeto.
 ### 1. Clonar e entrar na pasta
 
 ```powershell
-git clone https://github.com/Jkbarros/projeto-artefact.git
-cd projeto-artefact
+git clone https://github.com/Jkbarros/emporio-musica-agent.git
+cd emporio-musica-agent
 ```
 
 ### 2. Ambiente virtual e dependências
@@ -74,7 +74,7 @@ $env:PYTHONPATH = "src"
 Opção D — **Prompt de Comando (cmd)**, que não usa `ExecutionPolicy`:
 
 ```cmd
-cd C:\Users\user\Desktop\Projeto Artefact
+cd C:\caminho\para\emporio-musica-agent
 .\.venv\Scripts\activate.bat
 set PYTHONPATH=src
 python -m emporio.data_prep
@@ -136,8 +136,8 @@ Para encerrar o servidor: `Ctrl+C` no terminal.
 ## Passo a passo (macOS / Linux)
 
 ```bash
-git clone https://github.com/Jkbarros/projeto-artefact.git
-cd projeto-artefact
+git clone https://github.com/Jkbarros/emporio-musica-agent.git
+cd emporio-musica-agent
 python3.12 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt

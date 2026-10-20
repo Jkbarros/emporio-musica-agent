@@ -6,7 +6,7 @@
 
 ## 0. Contexto do projeto
 
-O usuário está fazendo o **Desafio Técnico de AI Engineer da Artefact**. O objetivo é prototipar um **agente de atendimento por mensagens de texto** para a **Empório da Música**, uma loja fictícia de instrumentos musicais em Campo Grande/MS. A equipe da loja está sobrecarregada com perguntas recorrentes (horários, status de pedido, preço e disponibilidade).
+O objetivo é prototipar um **agente de atendimento por mensagens de texto** para a **Empório da Música**, uma loja fictícia de instrumentos musicais em Campo Grande/MS. A equipe da loja está sobrecarregada com perguntas recorrentes (horários, status de pedido, preço e disponibilidade).
 
 **Materiais fornecidos pela loja (o usuário vai enviá-los pelo chat):**
 - `data/*.csv`: tabelas da operação (produtos, pedidos, clientes, promoções, etc.).
@@ -20,7 +20,7 @@ O usuário está fazendo o **Desafio Técnico de AI Engineer da Artefact**. O ob
 
 **Única restrição técnica obrigatória:** Python como linguagem principal.
 
-**Critérios de avaliação da Artefact:** lógica, clareza e iniciativa. Eles valorizam o *raciocínio e as decisões justificadas* mais do que uma solução perfeita. Quando algo for ambíguo, **assuma uma interpretação razoável, documente a suposição no README e siga em frente**.
+**Critérios de qualidade desejados:** lógica, clareza e iniciativa. Valorize o *raciocínio e as decisões justificadas* mais do que uma solução perfeita. Quando algo for ambíguo, **assuma uma interpretação razoável, documente a suposição no README e siga em frente**.
 
 ### Entregáveis (todos obrigatórios)
 1. **Repositório Git público no GitHub**, com histórico de commits que mostre progresso real. **Nada de force-push de tudo em um único commit.** Nada pode ser alterado após o prazo de entrega.

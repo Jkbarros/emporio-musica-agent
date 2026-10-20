@@ -1,10 +1,10 @@
 # Empório da Música — Agente de atendimento
 
-Protótipo de **agente conversacional por texto** para o desafio técnico de **AI Engineer (Artefact)**. A loja fictícia **Empório da Música** fica em Campo Grande/MS; a assistente virtual se chama **Lúcia**.
+Protótipo de **agente conversacional por texto** para a loja fictícia **Empório da Música** (Campo Grande/MS). A assistente virtual se chama **Lúcia**.
 
 O agente responde com base em **dados reais do desafio** (CSVs + PDF de políticas) e na **API OpenAI**, usando **function calling** nativo — sem framework de agentes. Não inventa preços, estoque, pedidos ou regras da loja.
 
-**Repositório:** https://github.com/Jkbarros/projeto-artefact
+**Repositório:** https://github.com/Jkbarros/emporio-musica-agent
 
 **Guia rápido para quem vai avaliar (localhost):** [docs/instrucoes_avaliador_localhost.md](docs/instrucoes_avaliador_localhost.md)
 
@@ -93,7 +93,7 @@ Implementação: `src/emporio/tools/`. Schemas OpenAI: `src/emporio/tools/regist
 ## Estrutura do projeto
 
 ```
-projeto-artefact/
+emporio-musica-agent/
 ├── data/
 │   ├── raw/                 # CSVs e PDF originais (intocados)
 │   └── processed/           # Parquets, Chroma, SQLite (gerados; ver .gitignore)
@@ -132,8 +132,8 @@ projeto-artefact/
 **Windows (PowerShell):**
 
 ```powershell
-git clone https://github.com/Jkbarros/projeto-artefact.git
-cd projeto-artefact
+git clone https://github.com/Jkbarros/emporio-musica-agent.git
+cd emporio-musica-agent
 py -3.12 -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
@@ -282,4 +282,4 @@ Conversas reais exportadas do agente ficam em `exemplos/` (cenários de catálog
 
 ## Licença e dados
 
-Dados e enunciado pertencem ao processo seletivo Artefact. Código do candidato conforme política do repositório público no GitHub.
+Dados da loja são fictícios e fornecidos para fins de demonstração. Código conforme licença do repositório no GitHub.
