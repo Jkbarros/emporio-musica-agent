@@ -4,7 +4,8 @@ Protótipo de **agente conversacional por texto** para a loja fictícia **Empór
 
 O agente responde com base em **dados reais do desafio** (CSVs + PDF de políticas) e na **API OpenAI**, usando **function calling** nativo — sem framework de agentes. Não inventa preços, estoque, pedidos ou regras da loja.
 
-**Repositório:** https://github.com/Jkbarros/emporio-musica-agent
+**Repositório:** https://github.com/Jkbarros/emporio-musica-agent  
+**Status:** finalizado — [docs/STATUS.md](docs/STATUS.md) (20 out. 2026)
 
 ![Demonstração da Lúcia: catálogo, políticas e pedidos com ferramentas](docs/demo.gif)
 
